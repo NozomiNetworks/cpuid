@@ -349,7 +349,7 @@ var darwinHasAVX512 = func() bool { return false }
 var CPU CPUInfo
 
 func init() {
-	initCPU()
+	InitCPU()
 }
 
 // Detect will re-detect current CPU info.
