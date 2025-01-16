@@ -350,7 +350,6 @@ var CPU CPUInfo
 
 func init() {
 	initCPU()
-	Detect()
 }
 
 // Detect will re-detect current CPU info.
