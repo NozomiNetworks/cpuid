@@ -348,11 +348,6 @@ var darwinHasAVX512 = func() bool { return false }
 // Use this as the primary entry point to you data.
 var CPU CPUInfo
 
-func init() {
-	initCPU()
-	Detect()
-}
-
 // Detect will re-detect current CPU info.
 // This will replace the content of the exported CPU variable.
 //

@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/klauspost/cpuid/v2"
+	"github.com/NozomiNetworks/cpuid/v2"
 )
 
 var js = flag.Bool("json", false, "Output as JSON")

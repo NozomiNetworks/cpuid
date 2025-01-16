@@ -12,7 +12,7 @@ func getProcFeatures() (procFeatures uint64)
 func getInstAttributes() (instAttrReg0, instAttrReg1 uint64)
 func getVectorLength() (vl, pl uint64)
 
-func initCPU() {
+func InitCPU() {
 	cpuid = func(uint32) (a, b, c, d uint32) { return 0, 0, 0, 0 }
 	cpuidex = func(x, y uint32) (a, b, c, d uint32) { return 0, 0, 0, 0 }
 	xgetbv = func(uint32) (a, b uint32) { return 0, 0 }
