@@ -1,4 +1,4 @@
-module github.com/NzomiNetworks/cpuid/testdata
+module github.com/NozomiNetworks/cpuid/testdata
 
 go 1.19
 

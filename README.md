@@ -39,7 +39,7 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/NzomiNetworks/cpuid/v2"
+	. "github.com/klauspost/cpuid/v2"
 )
 
 func main() {
@@ -131,7 +131,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/NzomiNetworks/cpuid/v2"
+	"github.com/klauspost/cpuid/v2"
 )
 
 func main() {
@@ -148,11 +148,11 @@ func main() {
 
 ## commandline
 
-Download as binary from: https://github.com/NzomiNetworks/cpuid/releases
+Download as binary from: https://github.com/klauspost/cpuid/releases
 
 Install from source:
 
-`go install github.com/NzomiNetworks/cpuid/v2/cmd/cpuid@latest`
+`go install github.com/klauspost/cpuid/v2/cmd/cpuid@latest`
 
 ### Example
 
